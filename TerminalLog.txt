@@ -76,3 +76,267 @@ drwxr-xr-x  3 olegdeviatovski  staff      96 Mar 20 13:45 ..
 olegdeviatovski@MacBook-Air-Oleg MyFirstApp_jar % java -jar ./MyFirstApp.jar                               
 the name is Mary
 olegdeviatovski@MacBook-Air-Oleg MyFirstApp_jar % 
+
+
+
+
+Last login: Fri Mar 17 15:39:35 on ttys002
+olegdeviatovski@MacBook-Air-Oleg ~ % pwd
+/Users/olegdeviatovski
+olegdeviatovski@MacBook-Air-Oleg ~ % cd IdeaProjects 
+olegdeviatovski@MacBook-Air-Oleg IdeaProjects % ls
+AVbot					stage0-module3-task3
+AmigosCode				stage0-module3-task4
+Artak1999_stage2-module2-task1		stage0-module3-task5
+Asliddin				stage0-module3-task6
+Asliddin_stage2-module2-task1		stage0-module3-taskFinal
+Banking01				stage0-module4-conditions-task1
+BankingJPA				stage0-module4-conditions-task2
+BotGeekCode				stage0-module4-conditions-task3
+DockerPHP				stage0-module4-conditions-task4
+FirstMac				stage0-module4-conditions-task5
+JavaCodeGeeks				stage0-module4-conditions-taskFinal
+JavaRush				stage0-module4-loops-task1
+JohnTutorials				stage0-module4-loops-task2
+MyFirstApp				stage0-module4-loops-task3
+MyFunctionalInterface			stage0-module4-loops-task4
+MyGitTask				stage0-module4-loops-task5
+MyServlet				stage0-module4-loops-taskFinal
+MySolution				stage0-module5-task1
+OLD_02_stage1-module7-nio-task1		stage0-module6-task1
+OLD_stage1-module7-nio-task1		stage1-module1-task1-try-catch
+Pirple					stage1-module1-task2-custom-exception
+Rusakov					stage1-module2-strings-task
+SamplesMJC				stage1-module3-task1
+Sudoku					stage1-module4-collections-finalTask
+TB01					stage1-module4-collections-task1-list
+TEMP					stage1-module4-collections-task2-set
+TEST NEW FOLDER				stage1-module4-collections-task3-map
+TMS2021					stage1-module4-collections-task4-queue
+TelegramBot.iml				stage1-module5-task1
+TelegramBotBase				stage1-module5-task2
+TelegramBots				stage1-module5-task3
+botlive					stage1-module6-io-task1
+botlive4				stage1-module6-io-task1_02
+botlive5				stage1-module6-io-task1_03
+botliveBUp				stage1-module7-nio-task1
+chatBot					stage2-module1-build-tools-gradle
+stage-2-module-1-build-tools-maven	stage2-module1-git
+stage0-master-task			stage2-module2-task1
+stage0-module2-task1			test0829
+stage0-module3-task1			testRep
+stage0-module3-task2			untitled
+olegdeviatovski@MacBook-Air-Oleg IdeaProjects % cd MyFirstApp 
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % cd target 
+olegdeviatovski@MacBook-Air-Oleg target % ls -al
+total 8
+drwxr-xr-x  7 olegdeviatovski  staff   224 Mar 20 13:23 .
+drwxr-xr-x  8 olegdeviatovski  staff   256 Mar 20 13:22 ..
+-rw-r--r--  1 olegdeviatovski  staff  2280 Mar 20 13:23 MyFirstApp-1.0-SNAPSHOT.jar
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 classes
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 generated-sources
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:23 maven-archiver
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 maven-status
+olegdeviatovski@MacBook-Air-Oleg target % java -jar ./MyFirstApp-1.0-SNAPSHOT.jar 
+olegdeviatovski@MacBook-Air-Oleg target % java -cp ./MyFirstApp-1.0-SNAPSHOT.jar com.beginsecure.App
+hello world
+olegdeviatovski@MacBook-Air-Oleg target % cd ..
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   .idea/.gitignore
+	new file:   .idea/artifacts/MyFirstApp_jar.xml
+	new file:   .idea/dbnavigator.xml
+	new file:   .idea/encodings.xml
+	new file:   .idea/jpa-buddy.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/vcs.xml
+	new file:   pom.xml
+	new file:   src/main/java/com/beginsecure/App.java
+	new file:   src/main/resources/META-INF/MANIFEST.MF
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .idea/dbnavigator.xml
+	modified:   .idea/misc.xml
+	modified:   pom.xml
+	modified:   src/main/java/com/beginsecure/App.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	TerminalLog.txt
+	out/
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git add --all
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git status   
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   .idea/.gitignore
+	new file:   .idea/artifacts/MyFirstApp_jar.xml
+	new file:   .idea/dbnavigator.xml
+	new file:   .idea/encodings.xml
+	new file:   .idea/jpa-buddy.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/vcs.xml
+	new file:   TerminalLog.txt
+	new file:   out/artifacts/MyFirstApp_jar/MyFirstApp.jar
+	new file:   pom.xml
+	new file:   src/main/java/com/beginsecure/App.java
+	new file:   src/main/resources/META-INF/MANIFEST.MF
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git remote add MyFirstApp https://github.com/Oleg-BLR
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   .idea/.gitignore
+	new file:   .idea/artifacts/MyFirstApp_jar.xml
+	new file:   .idea/dbnavigator.xml
+	new file:   .idea/encodings.xml
+	new file:   .idea/jpa-buddy.xml
+	new file:   .idea/misc.xml
+	new file:   .idea/vcs.xml
+	new file:   TerminalLog.txt
+	new file:   out/artifacts/MyFirstApp_jar/MyFirstApp.jar
+	new file:   pom.xml
+	new file:   src/main/java/com/beginsecure/App.java
+	new file:   src/main/resources/META-INF/MANIFEST.MF
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream MyFirstApp main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push --set-upstream MyFirstApp main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push https://github.com/Oleg-BLR/MyFirstApp.git
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR/MyFirstApp.git'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push https://github.com/Oleg-BLR/MyFirstApp.git
+error: src refspec refs/heads/main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR/MyFirstApp.git'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git remote add origin https://github.com/Oleg-BLR/MyFirstApp.git
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git branch -M main
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR/MyFirstApp.git'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git remote add origin https://github.com/Oleg-BLR/MyFirstApp.git
+git branch -M main
+git push -u origin main
+error: remote origin already exists.
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR/MyFirstApp.git'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push -u origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Oleg-BLR/MyFirstApp.git'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git log --all --graph --decorate --oneline --simplify-by-decoration
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git log
+fatal: your current branch 'main' does not have any commits yet
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git commit -m 'initial commit'
+[main (root-commit) 5b08830] initial commit
+ 13 files changed, 637 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/artifacts/MyFirstApp_jar.xml
+ create mode 100644 .idea/dbnavigator.xml
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 .idea/jpa-buddy.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 TerminalLog.txt
+ create mode 100644 out/artifacts/MyFirstApp_jar/MyFirstApp.jar
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/beginsecure/App.java
+ create mode 100644 src/main/resources/META-INF/MANIFEST.MF
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git log                       
+commit 5b08830ab9f196265bc8cbe2ff816f59cd200806 (HEAD -> main)
+Author: Oleg <Oleg-BLR@yandex.ru>
+Date:   Mon Mar 20 14:04:45 2023 +0300
+
+    initial commit
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git log --all --graph --decorate --oneline --simplify-by-decoration
+* 5b08830 (HEAD -> main) initial commit
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push -u origin                                                 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push --set-upstream origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Oleg-BLR/MyFirstApp.git/'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push -u origin main            
+Username for 'https://github.com': Oleg-BLR
+Password for 'https://Oleg-BLR@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Oleg-BLR/MyFirstApp.git/'
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git push -u origin main
+Username for 'https://github.com': Oleg-BLR
+Password for 'https://Oleg-BLR@github.com': 
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (27/27), 707.34 KiB | 26.20 MiB/s, done.
+Total 27 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Oleg-BLR/MyFirstApp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % 
+
