@@ -1,0 +1,78 @@
+olegdeviatovski@MacBook-Air-Oleg target % ls
+MyFirstApp-1.0-SNAPSHOT.jar     classes                         generated-sources               maven-archiver                  maven-status
+olegdeviatovski@MacBook-Air-Oleg target % ls -a
+.                               MyFirstApp-1.0-SNAPSHOT.jar     generated-sources               maven-status
+..                              classes                         maven-archiver
+olegdeviatovski@MacBook-Air-Oleg target % ls -al
+total 8
+drwxr-xr-x  7 olegdeviatovski  staff   224 Mar 20 13:23 .
+drwxr-xr-x  8 olegdeviatovski  staff   256 Mar 20 13:22 ..
+-rw-r--r--  1 olegdeviatovski  staff  2280 Mar 20 13:23 MyFirstApp-1.0-SNAPSHOT.jar
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 classes
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 generated-sources
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:23 maven-archiver
+drwxr-xr-x  3 olegdeviatovski  staff    96 Mar 20 13:22 maven-status
+olegdeviatovski@MacBook-Air-Oleg target % java -jar ./MyFirstApp-1.0-SNAPSHOT.jar 
+no main manifest attribute, in ./MyFirstApp-1.0-SNAPSHOT.jar
+olegdeviatovski@MacBook-Air-Oleg target % java -cp ./MyFirstApp-1.0-SNAPSHOT.jar com.beginsecure.App
+hello world
+olegdeviatovski@MacBook-Air-Oleg target % java -cp ./MyFirstApp-1.0-SNAPSHOT.jar com.beginsecure.App
+Exception in thread "main" java.lang.NoClassDefFoundError: org/json/JSONObject
+        at com.beginsecure.App.main(App.java:10)
+Caused by: java.lang.ClassNotFoundException: org.json.JSONObject
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+        at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+        ... 1 more
+olegdeviatovski@MacBook-Air-Oleg target %  cd ..
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % ls
+out     pom.xml src     target
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % cd ..
+olegdeviatovski@MacBook-Air-Oleg IdeaProjects % ls
+AVbot                                   Rusakov                                 stage0-module3-task4                    stage1-module3-task1
+AmigosCode                              SamplesMJC                              stage0-module3-task5                    stage1-module4-collections-finalTask
+Artak1999_stage2-module2-task1          Sudoku                                  stage0-module3-task6                    stage1-module4-collections-task1-list
+Asliddin                                TB01                                    stage0-module3-taskFinal                stage1-module4-collections-task2-set
+Asliddin_stage2-module2-task1           TEMP                                    stage0-module4-conditions-task1         stage1-module4-collections-task3-map
+Banking01                               TEST NEW FOLDER                         stage0-module4-conditions-task2         stage1-module4-collections-task4-queue
+BankingJPA                              TMS2021                                 stage0-module4-conditions-task3         stage1-module5-task1
+BotGeekCode                             TelegramBot.iml                         stage0-module4-conditions-task4         stage1-module5-task2
+DockerPHP                               TelegramBotBase                         stage0-module4-conditions-task5         stage1-module5-task3
+FirstMac                                TelegramBots                            stage0-module4-conditions-taskFinal     stage1-module6-io-task1
+JavaCodeGeeks                           botlive                                 stage0-module4-loops-task1              stage1-module6-io-task1_02
+JavaRush                                botlive4                                stage0-module4-loops-task2              stage1-module6-io-task1_03
+JohnTutorials                           botlive5                                stage0-module4-loops-task3              stage1-module7-nio-task1
+MyFirstApp                              botliveBUp                              stage0-module4-loops-task4              stage2-module1-build-tools-gradle
+MyFunctionalInterface                   chatBot                                 stage0-module4-loops-task5              stage2-module1-git
+MyGitTask                               stage-2-module-1-build-tools-maven      stage0-module4-loops-taskFinal          stage2-module2-task1
+MyServlet                               stage0-master-task                      stage0-module5-task1                    test0829
+MySolution                              stage0-module2-task1                    stage0-module6-task1                    testRep
+OLD_02_stage1-module7-nio-task1         stage0-module3-task1                    stage1-module1-task1-try-catch          untitled
+OLD_stage1-module7-nio-task1            stage0-module3-task2                    stage1-module1-task2-custom-exception
+Pirple                                  stage0-module3-task3                    stage1-module2-strings-task
+olegdeviatovski@MacBook-Air-Oleg IdeaProjects % cd MyFirstApp 
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % ls
+out     pom.xml src     target
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp % cd out
+olegdeviatovski@MacBook-Air-Oleg out % ls
+artifacts
+olegdeviatovski@MacBook-Air-Oleg out % ls -al
+total 0
+drwxr-xr-x  3 olegdeviatovski  staff   96 Mar 20 13:45 .
+drwxr-xr-x  9 olegdeviatovski  staff  288 Mar 20 13:45 ..
+drwxr-xr-x  3 olegdeviatovski  staff   96 Mar 20 13:45 artifacts
+olegdeviatovski@MacBook-Air-Oleg out % cd artifacts 
+olegdeviatovski@MacBook-Air-Oleg artifacts % ls -al
+total 0
+drwxr-xr-x  3 olegdeviatovski  staff  96 Mar 20 13:45 .
+drwxr-xr-x  3 olegdeviatovski  staff  96 Mar 20 13:45 ..
+drwxr-xr-x  3 olegdeviatovski  staff  96 Mar 20 13:45 MyFirstApp_jar
+olegdeviatovski@MacBook-Air-Oleg artifacts % cd MyFirstApp_jar 
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp_jar % ls -al           
+total 1568
+drwxr-xr-x  3 olegdeviatovski  staff      96 Mar 20 13:45 .
+drwxr-xr-x  3 olegdeviatovski  staff      96 Mar 20 13:45 ..
+-rw-r--r--  1 olegdeviatovski  staff  802728 Mar 20 13:45 MyFirstApp.jar
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp_jar % java -jar ./MyFirstApp.jar                               
+the name is Mary
+olegdeviatovski@MacBook-Air-Oleg MyFirstApp_jar % 
